@@ -1,0 +1,7 @@
+.mother{
+    &:hover{
+        .child{
+            height: 100%;
+        }
+    }
+}
