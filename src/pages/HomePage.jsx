@@ -189,23 +189,23 @@ function HomePage() {
                 <div className='px-[25px] md:px-[50px] xs:px-5 lg:px-[100px] pt-20 bg[red] m-auto'>
                     <div className='grid  grid-cols-1 lg:grid-cols-3 items-center gap-y-10'>
                         <div className='flex items-center  justify-center lg:justify-start '>
-                            <h4 className=' text-[10rem] text-[blue] font-bold'>01</h4>
+                            <h4 className=' text-[10rem] text-[#9999ff] font-bold'>01</h4>
                             <p className='text-4xl -ml-5 text-[#303030]'>Mechanical Fire Fighting</p>
                         </div>
-                        <div className='w-[250px] h-[250px] m-auto border-4 border-[blue] flex items-center justify-center rounded-full overflow-hidden'>
+                        <div className='w-[250px] h-[250px] m-auto border-4 border-[#9999ff] flex items-center justify-center rounded-full overflow-hidden'>
                             <img src={Img1} className=' w-full h-full m-auto rounded-ful' alt="" />
                         </div>
-                        <p className='float-end text-[blue]   m-auto max-w-[400px] lg:w-full text-center'>We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
+                        <p className='float-end text-[#9999ff]   m-auto max-w-[400px] lg:w-full text-center'>We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
                     </div>
                 </div>
                 <div className='px-[25px] md:px-[50px] xs:px-5 lg:px-[100px] pt-20 bg[red] m-auto'>
                     <div className='grid  grid-cols-1 lg:grid-cols-3 items-center  gap-y-10 '>
-                        <p className='order-last lg:order-first float-end text-[#ff6600]  m-auto max-w-[400px] lg:w-full text-center'>We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
-                        <div className='w-[250px] h-[250px] m-auto border-4 border-[#ff6600] flex items-center justify-center rounded-full overflow-hidden'>
+                        <p className='order-last lg:order-first float-end text-[#ffa366]  m-auto max-w-[400px] lg:w-full text-center'>We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
+                        <div className='w-[250px] h-[250px] m-auto border-4 border-[#ffa366] flex items-center justify-center rounded-full overflow-hidden'>
                             <img src={Img2} className=' w-full bg-white h-full m-auto rounded-ful' alt="" />
                         </div>
                         <div className='order-first lg:order-last flex items-center  justify-center lg:justify-start'>
-                            <h4 className=' text-[10rem] text-[#ff6600] font-bold'>02</h4>
+                            <h4 className=' text-[10rem] text-[#ffa366] font-bold'>02</h4>
                             <p className='text-4xl -ml-5 text-[#303030]'>Extra Low Voltage</p>
                         </div>
                         
@@ -214,13 +214,13 @@ function HomePage() {
                 <div className='px-[25px] md:px-[50px] xs:px-5 lg:px-[100px] pt-20 bg[red] m-auto'>
                     <div className='grid grid-cols-1 lg:grid-cols-3 items-center gap-y-10'>
                         <div className='flex items-center justify-center lg:justify-start '>
-                            <h4 className=' text-[10rem] text-lime-500 font-bold'>03</h4>
+                            <h4 className=' text-[10rem] text-[#b4ee5d] font-bold'>03</h4>
                             <p className='text-4xl -ml-5 text-[#303030]'>Extra Low Voltage</p>
                         </div>
-                        <div className='w-[250px] h-[250px] m-auto border-4 border-lime-500 flex items-center justify-center rounded-full overflow-hidden'>
+                        <div className='w-[250px] h-[250px] m-auto border-4 border-[#b4ee5d] flex items-center justify-center rounded-full overflow-hidden'>
                             <img src={Img3} className=' w-full  h-full m-auto rounded-ful' alt="" />
                         </div>
-                        <p className='float-end text-lime-500 m-auto max-w-[400px] lg:w-full text-center'>We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
+                        <p className='float-end text-[#b4ee5d] m-auto max-w-[400px] lg:w-full text-center'>We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
                     </div>
                 </div>
 
