@@ -1,0 +1,111 @@
+@tailwind base;
+
+
+@layer base {
+    html {
+      @apply text-neutral-800;
+    }
+    html.dark {
+      @apply text-neutral-50;
+      @apply bg-neutral-800;
+    }
+  }
+  
+@tailwind components;
+@tailwind utilities;
+
+
+
+.hero_particle_square{ 
+    background-color: #fff;
+    opacity: 0.13;
+    background-image:  radial-gradient(#006 0.8px, transparent 0.8px), radial-gradient(#006 0.8px, #fff 0.8px);
+    background-size: 32px 32px;
+    background-position: 0 0,16px 16px;
+    /* @apply px-3 */
+}
+.hero_particle_circle{ 
+    background-color: #fff;
+    opacity: 0.05;
+    background-image: radial-gradient(circle at center center, #006, #fff), repeating-radial-gradient(circle at center center, #006, #006, 11px, transparent 22px, transparent 11px);
+    background-blend-mode: multiply;
+}
+
+.h1_text_gradient_dark{
+  display: inline-block;
+  line-height: 1;
+  font-weight: black;
+  background: linear-gradient(to bottom right, #aabbff,#aabbff,#aabbff, #1169e8); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient_bg{
+  background: linear-gradient(to bottom right, #1169e8, #aabbff,#aabbff,#aabbff, #aabbff, #1169e8);
+}
+
+.bounce_arrow{
+  @apply rounded-full  border-4  animate-bounce py-4 px-2 mb-[20px] ;
+  color: linear-gradient(to bottom right, #1169e8, #aabbff,#aabbff,#aabbff, #aabbff, #1169e8) 1; 
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  /* border-radius: 50%; */
+}
+
+body{
+  /* font-family: sans-serif; */
+  font-family: "Poppins";
+
+}
+
+p{
+  color: #7e8690;
+}
+
+.home_hero_bg{
+
+}
+
+.services_list{
+  @apply border border-[#4869e8] text-[white] bg-[#4869e8] flex items-center gap-3 px-5  rounded-2xl mx-3 my-1 py-3 hover:cursor-pointer hover:px-6 transition-all ease-in-out 
+}
+
+
+@keyframes roll_up {
+  0%{
+    height: auto;
+  }
+  100%{
+    height: 100%;
+  }
+}
+
+.team_cover{
+  @apply relative shadow-xl h-[350px] overflow-hidden rounded-2xl transition-all ease-in-out;
+}
+
+.team_content{
+  @apply absolute bottom-0 left-0 flex items-center justify-center w-full py-1 bg-[#1169e8] transition-all ease-in-out;
+  /* transition: 0.5s ease-in-out; */
+  min-height: auto;
+  transition: min-height 3s ease-in-out;
+}
+.team_cover:hover img{
+  filter: blur(8px); 
+}
+.team_cover:hover .team_content {
+  @apply bg-[rgba(128,128,128,0.4)];
+  /* transition: 0.5s ease-in-out; */
+  height: 100%;
+  /* animation: roll_up 3s; */
+}
+
+.FooterWidget{
+    background: rgb(22, 22, 22);
+    /* background-color:rgb(35,35,35); */
+  background-image: url('./assets/backgrounds/slider-1.jpg');
+  background-blend-mode: darken ;
+}
+
+
+
